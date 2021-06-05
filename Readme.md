@@ -21,7 +21,7 @@ Reytinq listində sıra nömrələri avtomatik yaranır. "section-rating-body-it
 **Əlavə məlumat üçün əlaqə**
     
 1. Ad Soyad: Əli Mahmudlu
-2. Telefon:  [0708550235](tel:+994708550235)
+2. Telefon:  [0708550235](tel::+994708550235)
 3. Whatsapp: [Əli Mahmudlu](https://wa.me/994708550235)
 4. Email: [alimahmudlu@gmail.com](mailto:alimahmudlu@gmail.com)
 5. Facebook: [Əli mahmudlu (alimahmudlu)](https://www.facebook.com/ali.mahmudlu/)
