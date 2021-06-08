@@ -1,5 +1,5 @@
 # **TWELFY WEB SITE - FRONT END**
-**[https://twelfytest.herokuapp.com/](https://twelfytest.herokuapp.com/)**
+**[https://twelfy-front.herokuapp.com/](https://twelfy-front.herokuapp.com/)**
 ****
 
 **İstifadə olunan paketlər:**
