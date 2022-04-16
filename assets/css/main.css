@@ -1,5 +1,5 @@
 /*
- *    Version: 1.0.1
+ *    Version: 1.0.2
  *     Author: Ali Mahmudlu (alimahmudlu)
  *    Website: http://alimahmudlu.github.io
  *     Github: https://github.com/alimahmudlu/
@@ -108,9 +108,9 @@ hr, .hr {
 }
 .section-header-logo--text {
     color: #ffffff;
-    font-family: Rubik;
+    font-family: Helvetica, sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
     text-align: left;
