@@ -1,5 +1,5 @@
 /*
- *    Version: 1.0.2
+ *    Version: 1.0.3
  *     Author: Ali Mahmudlu (alimahmudlu)
  *    Website: http://alimahmudlu.github.io
  *     Github: https://github.com/alimahmudlu/
@@ -103,13 +103,13 @@ hr, .hr {
     align-items: flex-end;
 }
 .section-header-logo i {
-    font-size: 62px;
+    font-size: 69px;
     color: #ffffff;
 }
 .section-header-logo--text {
     color: #ffffff;
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
