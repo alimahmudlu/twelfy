@@ -127,9 +127,9 @@ hr, .hr {
 }
 .section-header-socialMenu-item i {}
 .section-header-socialMenu-item svg {
-    height: 21px;
+    height: 26px;
     position: relative;
-    top: -4px;
+    top: -3px;
 }
 .section-header-socialMenu-item svg path {
     color: #ffffff;
