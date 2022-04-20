@@ -18,7 +18,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: Helvetica, Arial, Roboto, sans-serif;
     overflow-x: hidden;
     background: url("./../images/44-layers@4x.png");
     background-size: cover;
@@ -120,7 +120,7 @@ hr, .hr {
 .section-header-socialMenu-item {
     font-size: 21px;
     color: #ffffff;
-    margin-left: 21px;
+    margin-left: 8px;
 }
 .section-header-socialMenu-item:hover {
     color: #ffffff;
@@ -152,7 +152,7 @@ hr, .hr {
         padding-left: 6px;
     }
     .section-header-socialMenu-item {
-        margin-left: 20px;
+        margin-left: 8px;
     }
 }
 
