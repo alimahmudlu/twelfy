@@ -106,6 +106,13 @@ hr, .hr {
     font-size: 69px;
     color: #ffffff;
 }
+.section-header-logo svg {
+    width: 69px;
+    height: 69px;
+}
+.section-header-logo svg path {
+    fill: #ffffff;
+}
 .section-header-logo--text {
     color: #ffffff;
     font-family: Helvetica, sans-serif;
