@@ -154,6 +154,10 @@ hr, .hr {
     .section-header-logo i {
         font-size: 48px;
     }
+    .section-header-logo svg {
+        width: 48px;
+        height: 48px;
+    }
     .section-header-logo--text {
         font-size: 22px;
         padding-left: 6px;
