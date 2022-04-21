@@ -1,5 +1,5 @@
 /*
- *    Version: 1.0.3
+ *    Version: 1.0.4
  *     Author: Ali Mahmudlu (alimahmudlu)
  *    Website: http://alimahmudlu.github.io
  *     Github: https://github.com/alimahmudlu/
@@ -121,6 +121,8 @@ hr {
     opacity: 1;
     color: #ffffff;
 }
+/* DEFAULT STYLE END */
+
 
 .section-header .section-header-content {
     padding: 32px 0;
