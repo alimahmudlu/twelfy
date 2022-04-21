@@ -24,8 +24,6 @@ function popperFn() {
 					$(this).popover('hide');
 				}
 			});
-			console.log('click')
-			console.log($('.tableMoreDots'))
 			$('.tableMoreDots').each(function () {
 				if (!$(this).is(e.target) &&
 					$(this).has(e.target).length === 0 &&
