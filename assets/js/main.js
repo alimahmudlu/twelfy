@@ -40,9 +40,9 @@ function heightControl(mainSection, changeSection) {
 	$(changeSection).css('height', mainHeight)
 }
 popperFn()
-heightControl('.section-about', '.section-rating')
+heightControl('.section_leg', '.section-rating')
 $(window).resize(function (){
-	heightControl('.section-about', '.section-rating')
+	heightControl('.section_leg', '.section-rating')
 })
 $(document).on('click', '.section-about-body--video', function () {
 	var videoUrl = $(this).attr('data-video-url');
