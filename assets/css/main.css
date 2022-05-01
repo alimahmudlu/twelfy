@@ -17,10 +17,13 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: Helvetica, Arial, Roboto, sans-serif;
+    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
     overflow-x: hidden;
     background: url("./../images/44-layers@4x.png");
     background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .overflowY {
     overflow-y: hidden;
@@ -186,7 +189,7 @@ hr {
     font-size: 14px;
     line-height: 1;
     color: rgba(255, 255, 255, 0.5);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     position: relative;
     transition: all .3s;
 }
@@ -291,7 +294,7 @@ hr {
     border-color: #a6a6a6;
 }
 .storeBadge.storeBadge--withImg img {
-    height: 35px;
+    /*height: 35px;*/
 }
 .storeBadge__icon,
 .storeBadge__storename,
@@ -349,7 +352,7 @@ hr {
 .section-about-head--header {
     color: #fff; /*font-size:30px;*/
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
     text-align: left;
@@ -358,7 +361,7 @@ hr {
 .section-about-body--description {
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -471,10 +474,10 @@ hr {
         text-align: center;
     }
     .storeBadge--withImg img {
-        /*width: 100%;*/
+        width: 100%;
     }
     .storeBadge--withOutImg {
-        width: calc(100% - 12px);
+        width: calc(50% - 12px);
     }
 }
 .section-rating {
@@ -498,7 +501,7 @@ hr {
 .section-rating-head--header {
     color: #fff;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
     text-align: left;
@@ -617,6 +620,7 @@ hr {
 }
 
 .section-footer {
+    margin-top: auto;
 }
 .section-footer-container {
     padding: 21px 0;
@@ -628,7 +632,7 @@ hr {
 .section-footer-content--copyright {
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     text-align: left;
@@ -651,7 +655,7 @@ hr {
 .section-footer-contact-item--link {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -673,7 +677,7 @@ hr {
     .section-footer-content--copyright {
         color: #fff;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
         letter-spacing: normal;
         text-align: left;
@@ -692,7 +696,6 @@ hr {
     }
     .section-footer-contact-item--link {
         font-size: 16px;
-        font-weight: 600;
     }
 }
 
