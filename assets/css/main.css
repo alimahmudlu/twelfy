@@ -366,6 +366,7 @@ hr {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
+    padding-bottom: 15px;
 }
 .section-about-body--video {
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.26);
