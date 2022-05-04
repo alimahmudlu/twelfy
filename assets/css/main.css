@@ -269,7 +269,7 @@ hr {
     background: #000;
     line-height: 1em;
     min-width: 55px;
-    flex: 1 0 auto;
+    flex: 1 0 calc((100% - 294px) / 2);
     height: 40px;
     transition: 0.2s ease-out;
     -webkit-tap-highlight-color: transparent;
@@ -422,6 +422,11 @@ hr {
     letter-spacing: normal;
     line-height: 46px;
     text-align: left;
+}
+@media (max-width: 1200px) {
+    .storeBadge:not(.storeBadge--withImg) {
+        flex: 1 0 auto;
+    }
 }
 @media (max-width: 992px) {
     .section-main {
