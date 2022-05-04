@@ -270,7 +270,7 @@ hr {
     line-height: 1em;
     min-width: 55px;
     flex: 1 0 auto;
-    height: 35px;
+    height: 40px;
     transition: 0.2s ease-out;
     -webkit-tap-highlight-color: transparent;
     font-weight: 500;
