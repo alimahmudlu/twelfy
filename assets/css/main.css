@@ -674,7 +674,7 @@ hr {
     margin: 0 -12px;
 }
 .section-calendar-body-item {
-    padding: 12px;
+    padding: 0 12px;
     height: 290px;
 }
 .section-calendar-body-items {
