@@ -35,14 +35,16 @@ function popperFn() {
 
 	}
 }
-function heightControl(mainSection, changeSection) {
+function heightControl(mainSection, changeSection, minusSection=0) {
 	var mainHeight = $(mainSection).actual('outerHeight');
-	$(changeSection).css('height', mainHeight)
+	var minusHeight = $(minusSection).actual('outerHeight');
+	console.log(mainHeight - minusHeight)
+	$(changeSection).css('height', mainHeight - minusHeight)
 }
 popperFn()
-heightControl('.section_leg', '.section-rating')
+heightControl('.section_leg', '.section-rating', '.section-calendar')
 $(window).resize(function (){
-	heightControl('.section_leg', '.section-rating')
+	heightControl('.section_leg', '.section-rating', '.section-calendar')
 })
 $(document).on('click', '.section-about-body--video', function () {
 	var videoUrl = $(this).attr('data-video-url');

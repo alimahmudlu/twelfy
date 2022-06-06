@@ -83,11 +83,11 @@
 /* Survey ICONS */
 @font-face {
     font-family: 'twelfy';
-    src:  url('../fonts/twelfy-icons/twelfy.eot?olnv0v');
-    src:  url('../fonts/twelfy-icons/twelfy.eot?olnv0v#iefix') format('embedded-opentype'),
-    url('../fonts/twelfy-icons/twelfy.ttf?olnv0v') format('truetype'),
-    url('../fonts/twelfy-icons/twelfy.woff?olnv0v') format('woff'),
-    url('../fonts/twelfy-icons/twelfy.svg?olnv0v#xin-icons') format('svg');
+    src:  url('../fonts/twelfy-icons/twelfy-icons.eot?lfjqhh');
+    src:  url('../fonts/twelfy-icons/twelfy-icons.eot?lfjqhh#iefix') format('embedded-opentype'),
+    url('../fonts/twelfy-icons/twelfy-icons.ttf?lfjqhh') format('truetype'),
+    url('../fonts/twelfy-icons/twelfy-icons.woff?lfjqhh') format('woff'),
+    url('../fonts/twelfy-icons/twelfy-icons.svg?lfjqhh#xin-icons') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -111,51 +111,58 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.twelfy-youtube:before {
-    content: "\e908";
+.twelfy-flag:before {
+    content: "\e90f";
+}
+.twelfy-right:before {
+    content: "\e902";
+}
+.twelfy-left:before {
+    content: "\e90c";
+}
+.twelfy-top:before {
+    content: "\e90d";
+}
+.twelfy-down:before {
+    content: "\e90e";
 }
 .twelfy-fb:before {
     content: "\e90a";
 }
+.twelfy-faq:before {
+    content: "\e903";
+}
+.twelfy-youtube:before {
+    content: "\e908";
+}
+.twelfy-tiktok:before {
+    content: "\e904";
+}
+.twelfy-whatsapp:before {
+    content: "\e901";
+}
+.twelfy-setupLogo:before {
+    content: "\e905";
+}
 .twelfy-play:before {
     content: "\e900";
 }
-.twelfy-cap:before {
-    content: "\e901";
-}
-.twelfy-page .path1:before {
-    content: "\e902";
-    color: currentColor;
-}
-.twelfy-page .path2:before {
-    content: "\e903";
-    margin-left: -0.78125em;
-    color: currentColor;
-}
-.twelfy-page .path3:before {
-    content: "\e904";
-    margin-left: -0.78125em;
-    color: rgb(0, 0, 0);
-}
-.twelfy-page .path4:before {
-    content: "\e905";
-    margin-left: -0.78125em;
-    color: rgb(0, 0, 0);
-}
-.twelfy-page .path5:before {
+.twelfy-mail:before {
     content: "\e906";
-    margin-left: -0.78125em;
-    color: rgb(0, 0, 0);
 }
-.twelfy-page .path6:before {
-    content: "\e907";
-    margin-left: -0.78125em;
-    color: rgb(0, 0, 0);
+.twelfy-logo:before {
+    content: "\e90b";
 }
 .twelfy-instagram:before {
     content: "\e909";
 }
-.twelfy-logo:before {
-    content: "\e90b";
+.twelfy-faq2:before {
+    content: "\e907";
+}
+.twelfy-cap:before {
+    content: "\e910";
+}
+.twelfy-azn:before {
+    content: "\e911";
 }
 /* FONTS DEFAULT END */
