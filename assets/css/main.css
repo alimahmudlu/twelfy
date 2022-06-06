@@ -457,7 +457,7 @@ hr {
     }
     .section-main--row .col-lg-6:first-child {
         padding-right: 15px;
-        margin-bottom: 40px;
+        margin-bottom: 7px;
     }
     .section-main--row .col-lg-6:last-child {
         padding-left: 15px;
@@ -646,7 +646,7 @@ hr {
         padding-top: 38px;
     }
     .section-rating {
-        min-height: 485px;
+        min-height: 610px;
         padding-top: 32px;
     }
     .section-rating::before {
